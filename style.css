@@ -241,7 +241,10 @@ footer nav a {
 
 
 .logo-footer {
+    position: relative;
     border-top: 2px solid cornflowerblue;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* /* header .fa-facebook-f {
