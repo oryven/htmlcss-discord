@@ -1,0 +1,87 @@
+/* general rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-center{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    background-color: tomato;
+    height: 100px;
+    position: relative;
+}
+  
+
+  /* header */
+header {
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    height: 500px;
+}
+
+.container-nav {
+    
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.accedi {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    /* border-radius: 50%; */
+}
+
+
+header .fa-facebook-f {
+    font-size: 25px;
+    color: #fff;
+}
+  
+
+  /* sezione principale */
+main {
+    margin: 50px 0;
+}
+
+section {
+    /* debug */
+    height: 200px;
+
+}
+
+
+/* footer */
+footer{
+    background-color: #23272a;
+    /* debug */
+    height: 200px;
+}
+
