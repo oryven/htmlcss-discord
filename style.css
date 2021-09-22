@@ -12,7 +12,6 @@ body {
     width: 80%;
     margin: 0 auto;
     height: 100%;
-    position: relative;
 }
   
 .container-nav {
@@ -26,17 +25,17 @@ header {
 }
 
 .logo {
-    position: absolute;
-    top: 20px;
-    left: 0;
-    line-height: 50%;
+    /* vertical-align: middle; */
+    display: inline-block;
+    margin-top: 20px;
 }
 
 nav {
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* vertical-align: middle; */
 }
 
 nav li {
@@ -53,9 +52,10 @@ nav a {
 }
 
 #accedi {
-    position: absolute;
-    top: 20px;
-    right: 0;
+    display: inline-block;
+    /* vertical-align: middle; */
+    margin-top: 20px;
+    
 } 
 
 .bottone {
