@@ -33,7 +33,7 @@ header {
     left: 0;
 }
 
-nav {
+ header nav {
     display: inline-block;
     margin-top: 40px;
     position: absolute;
@@ -41,14 +41,14 @@ nav {
     transform: translate(-50%, -60%);
 }
 
-nav li {
+header nav li {
     list-style-type: none;
     display: inline-block;
     margin-right: 40px;
     margin-top: 10px;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 14px;
@@ -132,7 +132,7 @@ img {
     width: 60%;
 }
 
-.container-testo-centrale{
+.container-testo-centrale {
     float: left;
     width: 30%;
     margin-right: 10%;
@@ -140,19 +140,15 @@ img {
 
 
 h3 {
-  font-size: 50px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+   font-size: 50px;
+   margin-top: 20px;
+   margin-bottom: 50px;
 }
 
 .testo-sezione {
     color: black;
-    /* margin-top: 30px; */
     font-weight: bold;
 }
-
-
-
 
   /* sezione 4 */
 
@@ -181,11 +177,71 @@ h5 {
 
 
 /* footer */
+
 footer {
-    background-color: #23272a;
     /* debug */
-    height: 200px;
-    
+    height: 450px;
+    background-color: #23272a; 
+}
+
+.container-footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-social {
+    float: left;
+    height: 300px;
+    width: 40%; 
+    margin-top: 30px;
+}
+
+h2 {
+    color:cadetblue;
+}
+
+footer nav li {
+    list-style-type: none;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.debug-nav {
+    height: 300px;
+    width: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nav-1 {
+    float: left;   
+}
+.nav2 {
+    float: left;
+}
+
+.nav3{
+    float: left;    
+}
+
+.nav4 {
+    float: left;    
+}
+
+
+.logo-footer {
+    border-top: 2px solid cornflowerblue;
 }
 
 /* /* header .fa-facebook-f {
