@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 .container-center{
     width: 80%;
@@ -24,9 +27,9 @@ header {
 
 .logo {
     position: absolute;
-    /* top: 20px; */
+    top: 20px;
     left: 0;
-    vertical-align: middle;
+    line-height: 50%;
 }
 
 nav {
@@ -49,15 +52,17 @@ nav a {
     font-size: 14px;
 }
 
-.accedi {
+#accedi {
     position: absolute;
     top: 20px;
     right: 0;
+} 
+
+.bottone {
     padding: 5px 10px;
     border-radius: 12px;
     border: none;
     cursor: pointer;
-
 }
 
 .payoff {
